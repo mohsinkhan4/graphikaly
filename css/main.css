@@ -1,6 +1,7 @@
 body {
     background-color: black; 
     font-family: 'Proxima Nova Soft','Helvetica Neue',sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1.1em;
 }
 
@@ -10,13 +11,16 @@ body {
 }
 
 .logo-center {
-    top: -180px;
+    top: -120px;
     position: absolute;
 }
 
 .app {
     position: relative;
-    margin: 200px 0;
+    margin: 200px 0 0 0;
+}
+
+.master-container {
     display: flex;
     justify-content: center;
 }
@@ -26,7 +30,6 @@ body {
     background-color: #a5adb0;
     border-radius: 2px;
     width: 95%;
-    height: 800px;
 }
 
 .chart-container {
@@ -38,12 +41,18 @@ body {
 
 .chart {
     background-color: black;
-    margin: 20px;
+    margin: 0 0 50px 0;
     width: 25%;
 }
 
 .text-container {
     display: flex;
     justify-content: center;
-    width: 100%;
+}
+
+.text {
+    margin-top: 75px;
+    padding: 75px 0;
+    font-size: 1.4em;
+    width: 40%;
 }
